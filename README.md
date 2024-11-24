@@ -11,7 +11,8 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 <p>- Deve simular um ambiente verdadeiro.</p>
 <p>- Navbar para a navegação entre as páginas.</p>
 <p>- Cards para os produtos na pagina cardápio.</p>
-<p>- Responsividade para dispositivos moveis.</p>
+<p>- Página de vendas funcional</p>
+<p>- Registro da venda das pizzas</p>
 
 
 <h4>Index demo.</h4>
