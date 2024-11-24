@@ -16,11 +16,11 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 
 <h4>Index demo.</h4>
 
-![indexPizzaria](https://user-images.githubusercontent.com/78119622/187560957-3fdf6bf7-72ec-451d-9e80-c19dbbcad33e.png)
+![indexPizzaria](https://github.com/gmatiasfriske/pizzaria-do-chef/blob/main/img/1.png)
 
 <h4>Cardápio demo.</h4>
 
-![cardapioDemo](https://user-images.githubusercontent.com/78119622/187560943-d5b7d8c6-dfa6-489b-afef-9e7b43d5bae5.png)
+![cardapioDemo](https://github.com/gmatiasfriske/pizzaria-do-chef/blob/main/img/2.png)
 
 
 
