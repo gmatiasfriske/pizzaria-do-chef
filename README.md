@@ -1,7 +1,6 @@
 # Site Pizzaria
 Projeto final do modúlo HTML/CSS do curso de Desenvolvimento de Software ITStep.
 
-https://gmatiasfriske.github.io/pizzaria-do-chef/
 <h3>Sobre</h3>
 
 Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a navegação de um site oficial, com paginas HOME, Sobre e Cardápio.
@@ -27,7 +26,7 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 
 
 
-<h2>Demonstração completa.</h2> Link: https://cezarj59.github.io/Site_Pizzaria/
+<h2>Demonstração completa.</h2> Link: https://gmatiasfriske.github.io/pizzaria-do-chef/
 
 <h3>Técnologias e recursos utilizados.</h3>
 <ul>
