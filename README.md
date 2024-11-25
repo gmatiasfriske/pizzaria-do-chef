@@ -1,12 +1,12 @@
 # Site Pizzaria
-Projeto final do modúlo HTML/CSS do curso de Desenvolvimento de Software ITStep.
+Projeto final para a matéria PIT 2.
 
 <h3>Sobre</h3>
 
 Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a navegação de um site oficial, com paginas HOME, Sobre e Cardápio.
 
 <h3>Objetivo do projeto</h3>
-<p>Projeto final para a matéria PIT 2.</p>
+<p>Site de uma pizzaria</p>
 
 <h4>Requisitos:</h4>
 <p>- Deve simular um ambiente verdadeiro.</p>
@@ -52,4 +52,11 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
           <li>Footer.</li>
       </ul>
   </li>
+  <li><h4>JAVA SCRIPT</h4>
+    <ul>
+          <li>Carrinho de compras.</li>
+          <li>Integração com API do Google Shets.</li>
+          <li>Registro das vendas enviadas por E-mail através da API: EmailJS</li>
+      </ul>
+  </li>li>  
 <ul>
