@@ -58,5 +58,5 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
           <li>Integração com API do Google Shets.</li>
           <li>Registro das vendas enviadas por E-mail através da API: EmailJS</li>
       </ul>
-  </li>li>  
+  </li>
 <ul>
