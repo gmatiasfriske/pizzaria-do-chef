@@ -75,9 +75,6 @@
     </script>
 
     <script>
-        // Inicializar o EmailJS com sua Public Key
-        //emailjs.init('bILG7JwPyOe5o7Aff');
-
         document.addEventListener("DOMContentLoaded", () => {
             const checkoutItems = document.getElementById('checkout-items');
             const checkoutTotal = document.getElementById('checkout-total');
@@ -130,22 +127,24 @@ ${itemsDetails}
 Total: R$ ${total.toFixed(2)}
             `;
 
-            // Salvar o pedido em um arquivo .txt
-            //const blob = new Blob([orderDetails], { type: 'text/plain' });
-            //const a = document.createElement('a');
-            //a.href = URL.createObjectURL(blob);
-            //a.download = `pedido_${Date.now()}.txt`;
-            //a.click();
+            try {
+                // Enviar emails
+                await sendEmails(name, phone, address, complement, paymentMethod, email, itemsDetails, total.toFixed(2));
 
-            // Enviar emails
-            sendEmails(name, phone, address, complement, paymentMethod, email, itemsDetails, total.toFixed(2));
+                // Exibir notificação e redirecionar
+                alert("Pedido Registrado com Sucesso!");
+                window.location.href = "../index.html";
+            } catch (err) {
+                console.error("Erro ao processar o pedido:", err);
+                alert("Ocorreu um erro ao registrar o pedido. Tente novamente.");
+            }
         });
 
         function sendEmails(name, phone, address, complement, paymentMethod, clientEmail, itemsDetails, total) {
             const adminEmail = "ricardorochadealmeida123@gmail.com";
 
             // Enviar email para o cliente
-            emailjs.send("service_g2wauwe", "template_1jrumlt", {
+            return emailjs.send("service_g2wauwe", "template_1jrumlt", {
                 name: name,
                 email: clientEmail,
                 order_details: itemsDetails,
